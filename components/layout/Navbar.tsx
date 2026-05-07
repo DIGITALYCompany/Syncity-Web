@@ -35,11 +35,10 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
-        <Link href="/" className="flex items-center space-x-2">
-          <img src="/logo.svg" alt="Syncity Logo" className="h-12 w-auto" onError={(e) => {
+        <Link href="/">
+          <img src="/images/SYNCITY_Logo_Full.svg" alt="Syncity Logo" className="h-12 w-auto" onError={(e) => {
             (e.target as HTMLImageElement).style.display = "none";
           }} />
-          <span className="font-bold text-xl tracking-tight text-white">SYNCITY</span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-8">
