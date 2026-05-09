@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://syncity-web-omega.vercel.app";
+const BASE_URL = "https://syncity.live";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
